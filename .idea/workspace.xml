@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f08544e-ea63-4a68-971f-ba3ddf38b6db" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/funcpages/contactus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funcpages/enterpriseProfile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funcpages/successcase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/successcase.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcpages/successcase.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcpages/successcase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +22,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="306" column="7" lean-forward="true" selection-start-line="306" selection-start-column="7" selection-end-line="306" selection-end-column="7" />
+            <state relative-caret-position="192">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/echarts/world.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/funcpages/successcase.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="-430">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -41,8 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/pc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3074">
-              <caret line="307" column="14" selection-start-line="307" selection-start-column="14" selection-end-line="307" selection-end-column="14" />
+            <state relative-caret-position="245">
+              <caret line="221" column="38" lean-forward="true" selection-end-line="313" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/successcase.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="102" column="17" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,62 +68,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/pc.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/funcpages/introduce.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/funcpages/successcase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/funcpages/enterpriseProfile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/funcpages/contactus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/rem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="576">
+              <caret line="275" selection-start-line="275" selection-end-line="349" selection-end-column="1" />
+              <folding>
+                <element signature="e#62#467#0" />
+                <element signature="e#474#615#0" />
+                <element signature="e#623#1802#0" />
+                <element signature="e#1880#2660#0" />
+                <element signature="e#2768#3275#0" />
+                <element signature="e#3279#3605#0" />
+                <element signature="e#3611#4985#0" />
+                <element signature="e#4991#5324#0" />
+                <element signature="e#5334#6166#0" />
+                <element signature="e#6175#7020#0" />
+                <element signature="e#7027#7898#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,6 +94,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -139,8 +117,9 @@
       <find>regions</find>
       <find>73%</find>
       <find>mapBox</find>
-      <find>world</find>
       <find>left_part</find>
+      <find>world</find>
+      <find>url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,11 +134,13 @@
         <option value="$PROJECT_DIR$/swiper/certify.css" />
         <option value="$PROJECT_DIR$/css/pc.css" />
         <option value="$PROJECT_DIR$/echarts/world.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/funcpages/introduce.html" />
-        <option value="$PROJECT_DIR$/funcpages/successcase.html" />
         <option value="$PROJECT_DIR$/funcpages/enterpriseProfile.html" />
         <option value="$PROJECT_DIR$/funcpages/contactus.html" />
+        <option value="$PROJECT_DIR$/css/successcase.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/successcase.css" />
+        <option value="$PROJECT_DIR$/funcpages/successcase.html" />
       </list>
     </option>
   </component>
@@ -197,6 +178,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -228,12 +210,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624413216066</updated>
-      <workItem from="1624413217380" duration="24922000" />
+      <workItem from="1624413217380" duration="25584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24922000" />
+    <option name="totallyTimeSpent" value="25584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -309,23 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/world.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="306" column="7" lean-forward="true" selection-start-line="306" selection-start-column="7" selection-end-line="306" selection-end-column="7" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -347,17 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/pc.css">
+    <entry file="file://$PROJECT_DIR$/funcpages/enterpriseProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3074">
-          <caret line="307" column="14" selection-start-line="307" selection-start-column="14" selection-end-line="307" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/pc.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="168">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -368,24 +326,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/funcpages/successcase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/funcpages/enterpriseProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/funcpages/contactus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="216">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/world.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pc.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="275" selection-start-line="275" selection-end-line="349" selection-end-column="1" />
+          <folding>
+            <element signature="e#62#467#0" />
+            <element signature="e#474#615#0" />
+            <element signature="e#623#1802#0" />
+            <element signature="e#1880#2660#0" />
+            <element signature="e#2768#3275#0" />
+            <element signature="e#3279#3605#0" />
+            <element signature="e#3611#4985#0" />
+            <element signature="e#4991#5324#0" />
+            <element signature="e#5334#6166#0" />
+            <element signature="e#6175#7020#0" />
+            <element signature="e#7027#7898#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="221" column="38" lean-forward="true" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/successcase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcpages/successcase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
         </state>
       </provider>
     </entry>
