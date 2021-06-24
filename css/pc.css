@@ -312,6 +312,9 @@ footer .center .right_part .item ul li {
   margin-top: 15px;
 }
 
-
+#worldMap{
+  width: 1200px;height: 600px;margin: 0 auto;
+  padding-top: 100px;
+}
 
 

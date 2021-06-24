@@ -1,5 +1,35 @@
 
  /*//其他样式*/
+  .outside{
+   background: url("../imgs/introduce2.jpg") center center;
+   background-size:100% 100% ;
+   width: 100%;
+   height: 630px;
+   position: relative;
+   top: 0;
+   left: 0;
+   display: inline-block;
+ }
+ .copywriting{
+   width: 1200px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+ }
+ .copywriting .main-title{
+   font-size: 46px;
+   letter-spacing: 4.6px;
+   color: #ffffff;
+ }
+
+ .copywriting .vice-title{
+   font-size: 30px;
+   letter-spacing: 3px;
+   color: #ffffff;
+ }
+
+
 .tool .search-intro{
   max-width: 1200px;
 }
