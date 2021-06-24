@@ -1,0 +1,44 @@
+
+ /*//其他样式*/
+.tool .search-intro{
+  max-width: 1200px;
+}
+.tool .search-intro .intro-item:nth-of-type(1){
+  margin-top: 43px;
+}
+ .tool .search-intro .intro-item{
+
+ }
+.tool .search-intro .intro-item .item-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.item_title_icon{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 10px;
+}
+.item_title_vice{
+  margin-left: 10px;
+  color: #0080c2;
+}
+.item-content{
+  height: 344px;
+  display: flex;
+}
+.item_text{
+  flex: 3;
+}
+.item_png{
+  display: flex;
+  align-items: center;
+  flex: 2;
+  padding: 0 50px;
+}
+
+
+
+
