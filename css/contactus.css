@@ -46,6 +46,7 @@
 }
 .top-time{
     height: 190px;
+    line-height:2;
     padding: 40px 0;
     display: flex;
     flex-direction: column;
@@ -88,6 +89,122 @@
     display: inline-block;
 }
 .work_service{
+    width: 568px;
+    height: 456px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 21px 0px
+    rgba(0, 0, 0, 0.1);
+    margin:0 15px;
+    padding:0 15px;
+}
+.top-work{
+    height: 190px;
+    line-height:2;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: padding-box;
+    border-bottom: 1px solid #5c657e;
+}
+.top-work .zi-time{
+    color: #5c657e;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top-work .server-long{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #478de1;
+}
+.top-work .server-long .service_long_bg{
+    width: 137px;
+    height: 82px;
+    background: url("../imgs/servercelong.png");
+    display: inline-block;
+    background-size: 100% 100%;
+}
+.bottom-address{
+    font-size: 24px;
+    color: #5c657e;
+    margin-top: 5px;
+    text-align: left;
+    line-height: 1.7;
+}
+/*.bottom-address{*/
+    /*text-align: left;*/
+    /*!*display: flex;*!*/
+    /*!*justify-content: flex-start;*!*/
+/*}*/
+.bottom-address .work_phone_texts .bg_phone{
+    background: url("../imgs/phone.png");
+    width: 24px;
+    height: 24px;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.bg_adress{
+    background: url("../imgs/adress.png");
+    width: 24px;
+    height: 24px;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.bottom-address .work_phone_texts{
+    display: flex;
+    align-items: center;
+}
+.address-all{
+    text-align: center;
+    background-color: #f2f2f2;
+    min-height: 235px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adress_content{
+    width: 600px;
+    border-bottom: #0a0205 dashed 2px;
+}
+.fenzhi_title{
+    height: 200px;
+    background-color: #f2f2f2;
+}
+#point1,#point2,#point3{
+    display: flex;
+    text-align: left;
+}
+#point1>div:first-child{
+    flex: 1;
+}
+#point1>div:nth-child(2){
+    flex: 3;
+}
+#point1>div:nth-child(3){
+    flex: 8;
+}
 
+#point2>div:first-child{
+    flex: 1;
+}
+#point2>div:nth-child(2){
+    flex: 3;
+}
+#point2>div:nth-child(3){
+    flex: 8;
+}
+#point3>div:first-child{
+    flex: 1;
+}
+
+#point3>div:nth-child(2){
+    flex: 3;
+}
+#point3>div:nth-child(3){
+    flex: 8;
 }
 

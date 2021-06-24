@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../layui/css/layui.css">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/contactus.css">
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=kWB5vkssg9jAMjXhSvrmnGs4SpfHAzzz">
+    </script>
 </head>
 <body>
 <!--联系我们-->
@@ -46,29 +49,69 @@
                 </div>
                 <div class="bottom-phone">
                     <div class="work_phone_text"><span class="bg_phone"></span>销售热线</div>
-                    <div class="work_phone_no">12222233332</div>
+                    <div class="work_phone_no f18">12222233332</div>
                 </div>
             </div>
             <div class="work_service">
-
+                <div class="top-work">
+                    <div class="zi-time">支持与服务</div>
+                    <div class="server-long">
+                        <span class="service_long_bg"></span>
+                        7*24
+                    </div>
+                </div>
+                <div class="bottom-address">
+                    <div class="work_phone_texts f24"><span class="bg_phone mr10"></span>销售热线: <span class="f20">11123434545</span>
+                    </div>
+                    <div class="email_adress">
+                        <span class="bg_adress"></span>
+                        邮寄地址：
+                    </div>
+                    <div class="f18">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+                </div>
             </div>
         </div>
+    </div>
+</div>
+<div>
+    <span>
+
+    </span>
+</div>
+<div class="fenzhi_title">
+    <div class="head">分支机构</div>
+</div>
+<div id="container" style="max-width: 1920px;height: 500px;margin: 0px auto"></div>
+<div class="address-all">
+    <div class="adress_content">
+        <div id="point1">
+            <div><span class="bg_adress"></span></div>
+            <div>Address</div>
+            <div>深圳市福田区xxxxxxxxxxxxxxxxxxxxxxxx</div>
+        </div>
+        <div id="point2">
+            <div><span class="bg_adress"></span></div>
+            <div>Address</div>
+            <div>深圳市福田区xxxxxxxxxxxxxxxxxxxxxxxx</div>
+        </div>
+
+        <div id="point3"><div><span class="bg_adress"></span></div>
+            <div>Address</div>
+            <div>深圳市福田区xxxxxxxxxxxxxxxxxxxxxxxx</div></div>
     </div>
 </div>
 <!--分割-->
 <div class="contant">
     <div class="head">联系我们</div>
 
-
-
     <div class="content">
         <div class="content_c">
             <label for="user">客户姓名：</label>
-            <input type="text" id="user" />
+            <input type="text" id="user"/>
         </div>
         <div class="content_c">
             <label for="number">联系电话：</label>
-            <input type="text" id="number" />
+            <input type="text" id="number"/>
         </div>
     </div>
 </div>
@@ -124,4 +167,77 @@
     </div>
 </footer>
 </body>
+<!--地图-->
+<script>
+    let points = [
+        {
+            point: [114.56981, 23.36016],
+            label: '地址：<br>' +
+                'xxxxxx<br>' +
+                '电话:<br>' +
+                '2222222221'
+        },
+        {
+            point: [114.56981, 22.36016],
+            label: 'xxxxxxx'
+        },
+        {
+            point: [114.56981, 25.36016],
+            label: 'xxxxxxx'
+        }
+
+    ];
+    var map = new BMapGL.Map("container");
+    var point = new BMapGL.Point(114.56981, 22.36016);
+    map.enableScrollWheelZoom(true);
+
+    // 创建点标记
+    function addMarker(point) {
+        var marker = new BMapGL.Marker(new BMapGL.Point(point[0], point[1]));
+        map.addOverlay(marker);
+    }
+
+
+    function addLable(point, label) {
+        let opts = {
+            position: new BMapGL.Point(point[0], point[1]), // 指定文本标注所在的地理位置
+            offset: new BMapGL.Size(30, -30) // 设置文本偏移量
+        };
+        var label = new BMapGL.Label(label, opts);
+        label.setStyle({
+            backgroundColor:'rgba(0,0,0,.9)',
+            color: '#fff',
+            borderRadius: '5px',
+            borderColor: '#0a0205',
+            padding: '10px',
+            fontSize: '12px',
+            height: '70px',
+            fontFamily: '微软雅黑'
+        });
+        map.addOverlay(label);
+    }
+
+    points.forEach(ite => {
+        addMarker(ite.point);
+        addLable(ite.point, ite.label)
+    })
+
+    map.centerAndZoom(point, 10);
+    function setPoint(point) {
+        let pointcenter = new BMapGL.Point(point[0], point[1]);
+        map.setCenter(pointcenter);
+        console.log(2);
+    }
+    document.getElementById('point1').addEventListener('click', function (e) {
+        if (e.target.id) {
+            setPoint([110.56981, 20.36016])
+        }
+    });
+</script>
+<script>
+
+
+
+
+</script>
 </html>
