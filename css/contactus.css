@@ -1,3 +1,11 @@
+.banner_gg_contactus {
+    width: 100%;
+    height: 630px;
+    background: url(../imgs/contactusgg.jpg) no-repeat;
+}
+
+
+
 .outside{
     background: url("../imgs/introduce2.jpg") center center;
     background-size:100% 100% ;
@@ -123,7 +131,7 @@
 .top-work .server-long .service_long_bg{
     width: 137px;
     height: 82px;
-    background: url("../imgs/servercelong.png");
+    background: url("../imgs/serveiceLongtime.png");
     display: inline-block;
     background-size: 100% 100%;
 }

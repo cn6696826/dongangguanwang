@@ -204,3 +204,35 @@ footer .center .right_part .item .title {
 footer .center .right_part .item ul li {
     margin-top: 15px;
 }
+
+/*头部背景*/
+.banner_gg .container {
+    height: 100%;
+    position: relative;
+}
+.banner_gg .info {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    padding-bottom: 30px;
+}
+.banner_gg .info .title {
+    font-weight: bold;
+    margin-bottom: 2px;
+    letter-spacing: 5px;
+}
+.banner_gg .info .content {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.banner_gg .info::before {
+    content: "";
+    width: 65px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+}

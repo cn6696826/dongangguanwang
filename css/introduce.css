@@ -1,5 +1,10 @@
 
  /*//其他样式*/
+ .banner_gg_introduce{
+     width: 100%;
+     height: 630px;
+     background: url(../imgs/bg5.jpg) no-repeat;
+ }
   .outside{
    background: url("../imgs/introduce2.jpg") center center;
    background-size:100% 100% ;
@@ -48,7 +53,8 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: red;
+  background:url("../imgs/introducetitle.png") ;
+    background-size: 100% 100%;
   margin-right: 10px;
 }
 .item_title_vice{

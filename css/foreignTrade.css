@@ -1,0 +1,325 @@
+.right_part a {
+  color: #999;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: none;
+  position: absolute;
+  z-index: 1;
+}
+header .container .nav ul a.active {
+  color: #fff;
+}
+.contant {
+  background-image: url(../imgs/bg7.jpg);
+}
+.contant .head {
+  z-index: 1;
+  color: #fff;
+}
+.contant .head::after {
+  background: #fff;
+}
+.contant .content {
+  z-index: 1;
+  position: relative;
+}
+.contant .content .content_c {
+  border: 1px solid #fff;
+}
+.contant .content .content_c label {
+  color: #fff;
+}
+.contant .yiny {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 34, 76, 0.5);
+}
+.banner_gg {
+  width: 100%;
+  height: 630px;
+  background: url(../imgs/trade_bg.jpg) no-repeat;
+}
+.banner_gg .container {
+  height: 100%;
+  position: relative;
+}
+.banner_gg .info {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  padding-bottom: 30px;
+}
+.banner_gg .info .title {
+  font-weight: bold;
+  margin-bottom: 2px;
+  letter-spacing: 5px;
+}
+.banner_gg .info .content {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.banner_gg .info::before {
+  content: "";
+  width: 65px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+}
+.trade {
+  margin: 60px 0;
+}
+.trade .tabType {
+  display: flex;
+  justify-content: space-between;
+}
+.trade .tabType .tabType_l {
+  width: 180px;
+  background: #f7f7f7;
+  height: fit-content;
+  box-shadow: 0 0 5px #ddd;
+}
+.trade .tabType .tabType_l .list {
+  margin-top: 30px;
+}
+.trade .tabType .tabType_l .list li {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.trade .tabType .tabType_l .list li.active {
+  border-left: 3px solid #0080c2;
+  padding: 5px 0 5px 28px;
+}
+.trade .tabType .tabType_l .list li.active a {
+  color: #0080c2;
+  font-weight: bold;
+}
+.trade .tabType .tabType_l .list li a {
+  color: #999;
+}
+.trade .tabType .tabType_r {
+  width: 1000px;
+}
+.trade .tabType .tabType_r .foreign_type .item {
+  display: flex;
+  margin-bottom: 10px;
+  height: 140px;
+}
+.trade .tabType .tabType_r .foreign_type .item .item_l {
+  width: 210px;
+  margin-right: 10px;
+}
+.trade .tabType .tabType_r .foreign_type .item .item_r {
+  flex: 1;
+  background: #f8f8f8;
+  line-height: 25px;
+  box-shadow: 0 0 5px #ddd;
+}
+.trade .tabType .tabType_r .foreign_type .item .item_r .conPart {
+  padding: 20px;
+}
+.trade .tabType .tabType_r .foreign_type .item .item_r .title {
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+}
+.trade .tabType .tabType_r .foreign_type .item .item_r .content {
+  font-size: 14px;
+  color: #999;
+}
+.trade .tabType .tabType_r .foreign_type .item .item_r:hover {
+  border: 1px solid #0080c2;
+}
+.brand .tabType .tabType_r {
+  width: 990px;
+}
+.brand_type {
+  display: flex;
+}
+.brand_type .content {
+  margin-right: 15px;
+}
+.brand_type .content .title {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.brand_type .content .title span {
+  margin-left: 10px;
+  color: #0080c2;
+  font-size: 16px;
+  font-weight: normal;
+}
+.brand_type .content .info {
+  font-size: 15px;
+  color: #666;
+  line-height: 30px;
+}
+.talent_type .head {
+  margin-bottom: 25px;
+  padding-top: 5px;
+}
+.talent_type .text {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 30px;
+  text-indent: 2em;
+}
+.talent_type .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.talent_type .content .item {
+  width: calc(50% - 20px);
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.talent_type .content .item .item_l .title {
+  font-size: 16px;
+  color: #444;
+  font-weight: bold;
+}
+.talent_type .content .item .item_l .subtitle {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+.talent_type .content .item .item_r a {
+  display: block;
+  padding: 8px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #ccc;
+}
+.talent_type .content .item .item_r a.active {
+  background: #0080c2;
+}
+.banner_cgal {
+  background: url(../imgs/bg4.jpg) no-repeat;
+}
+.banner_rjjs {
+  background: url(../imgs/bg5.jpg) no-repeat;
+}
+.rjjs .rjjs_t .content {
+  position: relative;
+  background: url(../imgs/rjjs2.jpg) no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+}
+.rjjs .rjjs_t .content .con_part {
+  max-width: 700px;
+  padding: 30px 30px 70px;
+  background: #fff;
+  box-shadow: 0 0 5px #ddd;
+  position: relative;
+  margin-top: 65px;
+  z-index: 1;
+}
+.rjjs .rjjs_t .content .con_part .title {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.rjjs .rjjs_t .content .con_part .title span {
+  margin-left: 10px;
+  color: #0080c2;
+  font-size: 16px;
+  font-weight: normal;
+}
+.rjjs .rjjs_t .content .con_part .info {
+  font-size: 15px;
+  color: #666;
+  line-height: 30px;
+}
+.rjjs .rjjs_t .content .kuai {
+  width: 100px;
+  height: 100px;
+  background: #1f52a3;
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+}
+.rjjs .rjjs_c {
+  width: 100%;
+  height: 560px;
+  background: url(../imgs/rjjs1.jpg) no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.rjjs .rjjs_c .menu {
+  position: relative;
+  z-index: 11;
+  display: flex;
+  justify-content: space-around;
+}
+.rjjs .rjjs_c .menu .item {
+  font-size: 28px;
+  font-weight: bold;
+  width: 245px;
+  text-align: center;
+  height: 230px;
+  background: url(../imgs/lun2.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% 100%;
+  position: relative;
+  cursor: pointer;
+}
+.rjjs .rjjs_c .menu .item .info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.rjjs .rjjs_c .menu .item .info a {
+  color: #3ec9fe;
+}
+.rjjs .rjjs_c .menu .item .bg2 {
+  pointer-events: none;
+  width: 205px;
+  height: 205px;
+  background: url(../imgs/lun1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.rjjs .rjjs_c .menu .item2 {
+  width: 245px;
+  height: 230px;
+}
+.rjjs .rjjs_c .menu1 {
+  display: flex;
+  justify-content: space-between;
+}
+.rjjs .rjjs_c .menu2 {
+  justify-content: space-around;
+  margin-top: -25px;
+}
+.rjjs .rjjs_c .yiny {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 128, 194, 0.2);
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=foreignTrade.css.map */
