@@ -39,9 +39,57 @@ a.btnn {
 
 /*其他样式*/
 .tool .container{
-  width: 600px;
+  width: 1200px;
   margin: 0 auto;
   margin-bottom: 37px;
 }
+.sshezuo{
+  background: url('../imgs/sshezuo.jpg');
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.wmqiye{
+  background: url('../imgs/wmqiye.jpg');
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.nzw{
+  background: url('../imgs/nzw.jpg');
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.sohogeren{
+  background: url('../imgs/sohogeren.jpg');
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
 
+.sshezuo>a,.wmqiye>a,.nzw>a,.sohogeren>a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
 

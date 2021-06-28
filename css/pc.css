@@ -242,6 +242,10 @@ header .container .nav ul a.active {
 .industry .industry_c .industry_item .main .content {
   font-size: 16px;
   color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 320px;
 }
 .industry .industry_b {
   text-align: center;
